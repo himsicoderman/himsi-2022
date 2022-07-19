@@ -1,0 +1,58 @@
+.judul {
+    color: #161212;
+    font-family: "poppins";
+    font-size: 2rem;
+  }
+  .jabatan {
+    color: #161212;
+    font-family: "poppins";
+    font-size: 1.25rem;
+  }
+  
+  .isi {
+    color: #5b5757;
+    font-family: "poppins";
+    font-size: 0.938rem;
+  }
+  
+.staff__container {
+    margin: 50px auto;
+    text-align: center;
+    padding: 50px;
+    width: 80%;
+}
+
+h1.staff__title {
+    text-transform: uppercase;
+    /* margin-bottom: 60px; */
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.staff__jabatan { 
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    text-align: center; 
+}
+
+.staff__description {
+    text-align: center;
+}
+
+.border {
+    display: block;
+    width: 120px;
+    height: 8px;
+    background: var(--first-color);
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.about__details {
+    row-gap: 1rem;
+    margin-top: var(--mb-2-5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
